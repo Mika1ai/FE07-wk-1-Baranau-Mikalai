@@ -1,58 +1,67 @@
 .awesome {
 	width: 100%;
+	text-align: center;
 }
 
 .awesome-title {
-	text-align: center;
 	padding-top: 100px;
+	line-height: 38px;
+	font-family: "Raleway", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 25px;
 }
 
 .awesome-line {
 	width: 64px;
-	margin-top: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	border-bottom: 1px solid chocolate;
+	margin: 0px auto 30px;
+	border-top: 1px solid rgba(217, 137, 67, 1);
 }
 
 .awesome-title-description {
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 7px;
-	color: grey;
+	line-height: 19px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(134, 135, 139, 1);
+	margin-bottom: 67px;
 }
 
 .awesome-answers {
-	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 -15px;
 }
 
 .awesome-answer {
-	display: inline-block;
-	width: 30%;
-	margin: 60px 16px 80px 16px;
-	text-align: center;
+	width: 350px;
+	margin: 0px 20px 105px;
 }
 
-.img-lamp {
-	margin: 20px 23px 20px 23px;
-}
-
-.img-keyboard {
-	margin: 22px 16px 22px 16px;
-}
-
-.img-lightning{
-	margin: 19px 25px 19px 25px;
-}
 .awesome-circle {
 	width: 70px;
 	height: 70px;
-	border: 1px solid chocolate;
+	border: 1px solid rgba(217, 137, 67, 1);
 	margin: auto;
 	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .awesome-subtitle {
 	margin-top: 30px;
+	line-height: 29px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
 	margin-bottom: 16px;
+}
+
+.awesome-subtitle-description {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
 }

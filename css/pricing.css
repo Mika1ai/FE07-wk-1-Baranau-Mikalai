@@ -1,0 +1,88 @@
+.pricing {
+	width: 100%;
+	background-color: rgba(229, 229, 229, 0.9);
+	text-align: center;
+}
+
+.pricing-title {
+	padding-top: 80px;
+	line-height: 42px;
+	font-family: "Raleway", sans-serif;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 34px;
+}
+
+.pricing-line {
+	margin: 0px auto 34px;
+	width: 64px;
+	border-top: 1px solid rgba(217, 137, 67, 1);
+}
+
+.pricing-title-description {
+	line-height: 19px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(134, 135, 139, 1);
+	margin-bottom: 63px;
+}
+
+.pricing-options {
+	margin: 0px -15px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pricing-option {
+	width: 340px;
+	margin: 0px 25px 80px;
+}
+
+.pricing-option-plan {
+	line-height: 50px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(51, 51, 51, 1);
+}
+
+.pricing-option-price {
+	line-height: 100px;
+	font-family: "Raleway", sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(51, 51, 51, 1);
+	margin: 2px 0px;
+}
+
+.pricing-option-free {
+	line-height: 50px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(51, 51, 51, 1);
+}
+
+.pricing-option-free-unic {
+	line-height: 50px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(217, 137, 67, 1);
+}
+
+.pricing-option-space {
+	margin-top: 4px;
+	line-height: 40px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(134, 135, 139, 1);
+	background-color: rgba(255, 255, 255, 1);
+}
