@@ -1,0 +1,107 @@
+.customers {
+	width: 100%;
+	text-align: center;
+}
+
+.customers-title {
+	padding-top: 80px;
+	line-height: 42px;
+	font-family: "Raleway", sans-serif;
+	font-weight: 400;
+	font-size: 36px;
+	margin-bottom: 34px;
+}
+
+.customers-line::after {
+	content: "";
+	width: 64px;
+	height: 1px;
+	margin: 0px auto 34px;
+	background-color: rgba(217, 137, 67, 1);
+	display: block;
+}
+
+.customers-title-description {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: rgba(134, 135, 139, 1);
+	margin-bottom: 67px;
+}
+
+.customers-reviews {
+	margin: 0px -15px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.customers-review {
+	width: 300px;
+	margin: 0px 15px 0px;
+}
+
+.customers-review-message {
+	padding: 10px;
+	line-height: 19px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(134, 135, 139, 1);
+	background-color: rgba(226, 226, 226, 1);
+	border-radius: 7px;
+	position: relative;
+}
+
+.customers-review-message::after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-right: 12px solid transparent;
+	border-top: 12px solid rgba(226, 226, 226, 1);
+	border-left: 12px solid transparent;
+	position: absolute;
+	bottom: -12px;
+	left: 39px;
+}
+
+.customers-review-customer {
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 120px;
+}
+
+.customers-review-customer-photo {
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+.customers-review-customer-info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.customers-review-customer-name {
+	line-height: 27px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 12px;
+}
+
+.customers-review-customer-profession {
+	line-height: 19px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(134, 135, 139, 1);
+}

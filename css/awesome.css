@@ -9,13 +9,16 @@
 	font-family: "Raleway", sans-serif;
 	font-size: 36px;
 	font-weight: 400;
-	margin-bottom: 25px;
+	margin-bottom: 34px;
 }
 
-.awesome-line {
+.awesome-line::after {
+	content: "";
 	width: 64px;
-	margin: 0px auto 30px;
-	border-top: 1px solid rgba(217, 137, 67, 1);
+	height: 1px;
+	background-color: rgba(217, 137, 67, 1);
+	margin: 0px auto 34px;
+	display: block;
 }
 
 .awesome-title-description {
