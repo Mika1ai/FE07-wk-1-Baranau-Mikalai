@@ -53,6 +53,19 @@
 	align-items: center;
 }
 
+.fa-lightbulb {
+	font-size: 33px;
+	color: rgba(255, 140, 53, 1);
+}
+.fa-keyboard {
+	font-size: 33px;
+	color: rgba(255, 140, 53, 1);
+}
+.fa-bolt {
+	font-size: 33px;
+	color: rgba(255, 140, 53, 1);
+}
+
 .awesome-subtitle {
 	margin-top: 30px;
 	line-height: 29px;

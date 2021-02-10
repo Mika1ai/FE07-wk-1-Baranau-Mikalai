@@ -48,21 +48,26 @@
 }
 
 .axure-download {
-	width: 135px;
-	height: 42px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+}
+.axure-download-link {
+	color: rgba(255, 255, 255, 1);
 	background-color: transparent;
 	border: 1px solid rgba(255, 255, 255, 1);
-	color: rgba(255, 255, 255, 1);
+	padding: 11px 26px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	font-size: 15px;
-	margin: 0px auto 40px;
+	transition: all 0.3s ease;
 }
 
 .axure-download:focus {
 	outline: none;
 }
-.axure-download:hover {
+.axure-download-link:hover {
 	background-color: rgba(255, 255, 255, 1);
 	color: rgba(0, 0, 0, 1);
 }

@@ -1,0 +1,77 @@
+.social {
+	width: 100%;
+	background: rgba(248, 239, 239, 1);
+}
+.social-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.social-title {
+	font-family: "Open Snas", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: rgba(55, 55, 55, 1);
+	margin: 14px 0px;
+}
+.social-description {
+	font-family: "Open Snas", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgba(134, 135, 139, 1);
+	width: 365px;
+	margin-bottom: 17px;
+}
+.social-icons {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 42px;
+	color: rgba(200, 200, 200, 1);
+}
+.social-icon {
+	margin-left: 65px;
+}
+.social-icon:first-child {
+	margin-left: 0px;
+}
+.social-link{
+	color: rgba(200, 200, 200, 1);
+	text-decoration: none;
+}
+
+.fab {
+	transition: all 0.5s ease;
+}
+.fas {
+	transition: all 0.5s ease;
+}
+
+.fas:hover {
+	transform: scale(1.2);
+}
+.fab:hover {
+	transform: scale(1.2);
+}
+
+.fa-facebook:hover {
+	color: rgba(24, 119, 242, 1);
+}
+.fa-twitter:hover {
+	color: rgba(29, 161, 242, 1);
+}
+.fa-google-plus-g:hover {
+	color: rgba(221, 75, 57, 1);
+}
+.fa-pinterest:hover {
+	color: rgba(230, 0, 35, 1);
+}
+.fa-instagram:hover {
+	color: rgba(221, 42, 123, 1);
+}
+.fa-stumbleupon:hover {
+	color: rgba(235, 73, 36, 1);
+}
+.fa-rss:hover {
+	color: rgba(238, 128, 47, 1);
+}

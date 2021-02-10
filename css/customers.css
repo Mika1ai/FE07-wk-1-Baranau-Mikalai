@@ -35,12 +35,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	align-items: flex-end;
 }
 
 .customers-review {
 	width: 300px;
 	margin: 0px 15px 0px;
+	display: flex;
+	flex-direction: column;
 }
 
 .customers-review-message {
@@ -53,6 +54,7 @@
 	background-color: rgba(226, 226, 226, 1);
 	border-radius: 7px;
 	position: relative;
+	flex: 1 1 auto;
 }
 
 .customers-review-message::after {
@@ -72,6 +74,7 @@
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 120px;
+	align-items: flex-end;
 }
 
 .customers-review-customer-photo {
