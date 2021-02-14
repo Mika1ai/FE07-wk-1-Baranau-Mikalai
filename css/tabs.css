@@ -1,0 +1,56 @@
+.tabs {
+	width: 100%;
+}
+
+.tabs-content {
+	padding: 10rem 0rem;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px -1.5rem;
+}
+.tabs-tabs {
+	margin: 0px 1.5rem;
+}
+.tabs-tab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 11rem;
+	height: 11rem;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(51, 51, 51, 1);
+	border-radius: 0.4rem;
+	margin-bottom: 1rem;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.tabs-tab:last-child {
+	margin-bottom: 0rem;
+}
+.tabs-tab:hover {
+	background-color: rgba(237, 122, 122, 1);
+}
+.tabs-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0rem 1.5rem;
+}
+.tabs-title {
+	margin-bottom: 6rem;
+}
+.tabs-title-description {
+	max-width: 57rem;
+}
+.tabs-button-download {
+	border: 0;
+}
+.tabs-link-download {
+	background-color: rgba(237, 122, 122, 1);
+}
+.tabs-img {
+	margin: 0rem 1.5rem;
+}

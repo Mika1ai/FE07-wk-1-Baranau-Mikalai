@@ -1,0 +1,124 @@
+.fs {
+	width: 100%;
+	background: url(../img/bg/axit.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+	position: relative;
+}
+.fs::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.45);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fs-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 20rem 0rem;
+}
+.fs-representation {
+	max-width: 54rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+.fs-logo {
+	font-family: "Roboto", sans-serif;
+	font-size: 6em;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+}
+.fs-logo-pink {
+	color: rgba(237, 122, 122, 1);
+}
+.fs-title {
+	color: rgba(255, 255, 255, 1);
+	margin-top: 4rem;
+}
+.fs-line {
+	display: flex;
+	margin: 4rem 0rem;
+}
+.fs-line::after {
+	content: "";
+	width: 6.4rem;
+	height: 0.1rem;
+	background-color: rgba(255, 255, 255, 1);
+	position: absolute;
+}
+.fs-button-download {
+	margin-top: 4rem;
+}
+.fs-trial {
+	display: flex;
+	flex-direction: column;
+}
+.fs-trial-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 37rem;
+	height: 31.5rem;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 0.8rem 0.8rem 0rem 0rem;
+}
+.fs-trial-title {
+	padding-top: 2rem;
+}
+.fs-trial-title-pink {
+	color: rgba(237, 122, 122, 1);
+}
+.fs-trial-form {
+	width: 25rem;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+.fs-trial-form-item {
+	margin-bottom: 4rem;
+	position: relative;
+}
+.fs-trial-form-item:last-child {
+	margin-bottom: 0px;
+}
+.fs-trial-form-item::after {
+	content: "";
+	width: 100%;
+	height: 0.1rem;
+	background-color: rgba(189, 189, 189, 1);
+	position: absolute;
+	bottom: -1.6rem;
+	left: 0rem;
+}
+
+.fs-trial-form-input {
+	border: 0;
+	outline: 0;
+}
+.fs-button-getstarted {
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	outline: 0;
+	background-color: rgba(237, 122, 122, 1);
+	border-radius: 0rem 0rem 0.8rem 0.8rem;
+	cursor: pointer;
+	width: 37rem;
+	height: 5.5rem;
+	transition: 0.3s ease;
+}
+.fs-button-getstarted:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+}

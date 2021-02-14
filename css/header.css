@@ -1,72 +1,60 @@
 header {
-	width: 100%;
 	background-color: rgba(0, 0, 0, 1);
 }
 .header-content {
-	padding: 20px 0px 20px;
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	padding: 2rem 0em;
 }
 .header-logo {
-	display: flex;
-}
-.header-logo-part-1 {
-	font-family: "Roboto", sans-serif;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 35px;
 	color: rgba(255, 255, 255, 1);
-}
-.header-logo-part-2 {
-	font-family: "Roboto", sans-serif;
-	font-size: 30px;
+	font-size: 3em;
+	font-family: "Raleway", sans-serif;
 	font-weight: 400;
-	line-height: 35px;
+}
+.header-logo-pink {
 	color: rgba(237, 122, 122, 1);
 }
 .header-nav-menu {
 	display: flex;
-	flex-wrap: wrap;
 }
 .header-nav-item {
-	margin-left: 48px;
-	transition: all 0.5s ease;
+	margin-left: 4.8rem;
+	transition: all 0.3s ease;
 	position: relative;
 }
 .header-nav-item:first-child {
 	margin-left: 0px;
 }
 .header-nav-link {
-	font-family: "Open Sans", sans-serif;
-	font-size: 15px;
-	font-weight: 600px;
-	line-height: 20px;
 	color: rgba(255, 255, 255, 0.7);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 400;
 }
 
 .header-nav-item:hover {
 	transform: translate(0px, -3px);
 }
-.header-nav-item:hover:after {
+.header-nav-item:hover::before {
 	content: "";
-	position: absolute;
+	height: 0.1rem;
 	background-color: rgba(255, 255, 255, 0.7);
-	height: 1px;
+	position: absolute;
 	bottom: 0;
 	left: 0;
 
-	animation-name: line;
+	animation-name: underscore;
 	animation-duration: 0.5s;
 	animation-delay: 0.3s;
 	animation-fill-mode: forwards;
 }
-@keyframes line {
-	0%{
+@keyframes underscore {
+	0% {
 		width: 0%;
 	}
-	100%{
+	100% {
 		width: 100%;
 	}
 }

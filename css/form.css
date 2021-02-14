@@ -1,0 +1,100 @@
+.form {
+	width: 100%;
+}
+.form-content {
+	padding: 8rem 0rem 4.5rem 0rem;
+}
+.form-advert {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-line {
+	margin-top: 3.4rem;
+	display: flex;
+	justify-content: center;
+}
+.form-title-description {
+	margin-top: 3.4rem;
+}
+.form-form {
+	margin-top: 9rem;
+}
+.form-form-content {
+	display: flex;
+	justify-content: space-between;
+}
+.form-nep {
+	width: 48rem;
+	margin-right: 1.5rem;
+}
+.form-nep-item {
+	margin-bottom: 6.8rem;
+	position: relative;
+}
+.form-nep-item:last-child {
+	margin-bottom: 0rem;
+}
+.form-nep-item::after {
+	content: "";
+	width: 100%;
+	height: 0.1rem;
+	background-color: rgba(189, 189, 189, 1);
+	left: 0;
+	bottom: -3.2rem;
+	position: absolute;
+}
+.form-nep-input {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	color: rgba(189, 189, 189, 1);
+	outline: 0;
+	border: 0;
+}
+.form-message {
+	width: 48rem;
+	margin-left: 1.5rem;
+	position: relative;
+}
+.form-message::after {
+	content: "";
+	width: 100%;
+	height: 0.1rem;
+	background-color: rgba(189, 189, 189, 1);
+	left: 0rem;
+	bottom: -3.1rem;
+	position: absolute;
+}
+.form-textarea {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4em;
+	font-weight: 400;
+	color: rgba(189, 189, 189, 1);
+	width: 100%;
+	outline: 0;
+	border: 0;
+	position: relative;
+}
+
+.form-button-sendmessage {
+	margin: 12rem auto 0rem;
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+	outline: 0;
+	background-color: rgba(237, 122, 122, 1);
+	cursor: pointer;
+	width: 16.5rem;
+	height: 4rem;
+	transition: 0.3s ease;
+}
+.form-button-sendmessage:hover {
+	background-color: rgba(255, 255, 255, 1);
+	color: rgba(0, 0, 0, 1);
+}

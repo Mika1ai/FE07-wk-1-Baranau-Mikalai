@@ -2,52 +2,30 @@ footer {
 	width: 100%;
 	background-color: rgba(0, 0, 0, 1);
 }
-
 .footer-content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 3rem 0rem 1.5rem 0rem;
 }
 .footer-icons {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	font-size: 23px;
-	padding-top: 30px;
-	margin-bottom: 18px;
+	font-size: 2.3rem;
 }
 .footer-icon {
-	margin-left: 30px;
+	margin-left: 3rem;
 }
 .footer-icon:first-child {
-	margin-left: 0px;
+	margin-left: 0rem;
 }
 .footer-link {
 	color: rgba(200, 200, 200, 1);
 	text-decoration: none;
 }
-.fab {
-}
-.fa-facebook {
-}
-.fa-twitter {
-}
-.fa-google-plus-g {
-}
-.fa-pinterest {
-}
-.fa-instagram {
-}
-.fa-stumbleupon {
-}
-.fas {
-}
-.fa-rss {
-}
 .fotter-text {
 	color: rgba(255, 255, 255, 0.5);
-	padding-bottom: 15px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 1.2em;
+	margin-top: 1.8rem;
 }
